@@ -3,7 +3,7 @@ include(../libs/libs.pri)
 
 QT            += core gui widgets printsupport
 TARGET        = Framework
-DESTDIR       = ../bin
+DESTDIR       = $$BIN_PATH
 TEMPLATE      = app
 
 SOURCES      += main.cpp\
